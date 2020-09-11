@@ -1,0 +1,468 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.okvir{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+*{
+	font-family:arial;
+}
+.cistac{
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;	
+}
+
+
+/***zaglavlje***/
+
+
+#heder{
+	width:100%;
+	height:130px;
+}
+#logo{
+	width:161px;
+	height:130px;
+	float:left;
+}
+#reg-pri{
+	width:220px;
+	height:70px;
+	float:right;
+	margin-top:20px;
+}
+#reg-pri a{
+	background-color:#b8bfc4;
+	color:#000;
+	padding:10px;	
+	text-transform:uppercase;
+	font-size:12px;
+	margin-left:5px;
+}
+#navigacija{
+	background-color:#b8bfc4;
+	height:72px
+}
+.okvir ul li{
+	float:left;
+	text-align:center;
+	font-size:20px;
+	color:black;
+}
+.okvir ul li a{
+	padding:25px;
+	display:block;
+	color:#000;
+}
+.aktivan-link{
+	background-color:#fff;
+}
+
+
+/****baner****/
+
+
+#baner {
+	width:100%;
+	height:400px;
+	background-image: url(../images/baner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	background-position:center;
+}
+#opis{
+	width:280px;
+	height:80px;
+	position:absolute;
+	top:300px;
+	left:360px;
+}
+#baner #opis p{
+	font-size:20px;
+	color:#b8bfc4;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+/****artikli****/
+
+
+
+.okvir #naj-pro{
+	padding:20px 0px;
+	font-style:italic;
+	margin-left:10px;
+	display:inline-block;
+}
+#naj-rss{
+	width:350px;
+	height:80px;
+	margin-top:10px;
+}
+#rss-blok{
+	height:50px;
+	float:right;
+	margin-top:5px;
+	margin-right:23px;
+}
+.okvir #rss{
+	background-color:#ef9221;
+	padding:15px;
+	display:block;
+	border-radius:4px;
+}
+.okvir .fa.fa-rss{
+	color:#fff;
+}
+.artikal h2{
+	font-size:20px;
+}
+.artikal p{
+	margin-top:28px;
+	color:#f71313;
+	font-size:15px;
+}
+#proizvodi{
+	width:100%;
+	min-height:500px;
+}
+.red{
+	width:inherit;
+	height:300px;
+	border-bottom:1px solid #000;
+}
+.border{
+	border-bottom:none;
+}
+.artikal{
+	width:21%;
+	height:280px;
+	float:left;
+	margin-left:27px;
+	margin-top:15px;
+}
+.slika{
+	width:100%;
+	height:200px;
+}
+.slika img{
+	width:200px;
+	height:200px;
+}
+
+
+/******futer*****/
+
+
+#futer{
+	width:100%;
+	height:340px;
+	background-color:#b8bfc4;
+}
+#futer #prvi{
+	width:100%;
+	height:200px;
+}
+#mapa{
+	width:100%;
+	height:25px;
+	font-size:20px;
+	margin-bottom:5px;
+}
+#futer-meni{
+	width:300px;
+	height:180px;
+	float:left;
+	margin:25px;
+}
+#futer-lista{
+	width:70px;
+}
+#futer-lista ul li{
+	float:none;
+	text-align:left;
+	font-size:16px
+}
+#futer-lista ul li a{
+	padding:0px;
+}
+#mreze{
+	width:300px;
+	height:100px;
+	float:right;
+	margin-top:25px;
+	margin-right:150px;
+}
+.mreza{
+	width:64px;
+	height:64px;
+	float:left;
+	background-image: url(../images/mreze.png);
+	background-repeat:no-repeat;
+	margin-left:2px;
+	border-radius:50px;
+}
+.mreza:hover{
+	background-color:#fff;
+}
+.mreza a{
+	padding-left:70px;
+	padding-bottom:50px;
+}
+.pozicija1{
+	background-position:-18 -15
+}
+.pozicija2{
+	background-position:-118 -15
+}
+.pozicija3{
+	background-position:-218 -15
+}
+.pozicija4{
+	background-position:-18 -109
+}
+
+#leter{
+	width:100%;
+	height:80px;
+}
+#leter-forma{
+	width:550px;
+	height:100%;
+	float:right;
+}
+#leter-forma #email{
+	width:250px;
+	height:50px;
+	margin:10px;
+	box-sizing:border-box;
+}
+#dugme{
+	width:200px;
+	height:50px;
+	background-color:#000;
+	border:1px solid #000;
+	color:#fff;
+}
+.opacity:hover{
+	opacity:0.6;
+}
+#copyright{
+	width:100%;
+	height:50px;
+	border-top:1px solid #000;	
+}
+#copyright p{
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/*****servis.html i o-nama.html****/
+
+
+.okvir .servis{
+	margin-top:50px;
+}
+.okvir .servis-tekst{
+	padding:25px 0px 40px 0px;
+	text-align:justify
+}
+
+
+/***lokacija.html****/
+
+
+#mapa-radnje{
+	margin-top:20px;
+	height:460px;
+	width:610px;
+}
+#tekst-radnja{
+	width:300px;
+	height:120px;
+	font-size:18px;
+}
+
+
+/***oautoru***/
+
+
+#slika-autor{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-bottom:50px;
+	margin-top:50px;
+	border:3px solid #b8bfc4;
+}
+#bio{
+	width:400px;
+	height:200px;
+	float:right;
+	margin-top:50px;
+	margin-right:150px;
+	font-size:20px;
+	text-align:justify;
+}
+
+
+/****kontakt.html****/
+
+
+.okvir #kont-slika{
+	width:350px;
+	height:500px;
+	float:left;
+	margin-top:40px;
+	margin-bottom:30px;
+}
+.okvir #kont-forma{
+	width:400px;
+	height:500px;
+	float:right;
+	margin-top:23px;
+	margin-right:150px;
+}
+#kont-forma #ime,#kont-email{
+	width:300px;
+	height:50px;
+}
+#kont-forma #kont-dugme:hover{
+	opacity:0.8
+}
+#kont-forma textarea{
+	width:100%;
+}
+
+
+/****registracija.html****/
+
+
+.registracija{
+	width:370px;
+	height:800px;
+	float:left;
+	margin-top:50px;
+}
+.registracija #kreiraj{
+	width:300px;
+	height:50px;
+	margin-top:10px;
+}
+.registracija .podaci{
+	width:300px;
+	height:50px;
+	margin-top:10px;
+	margin-left:10px;
+}
+h1,h2{
+	font-weight:normal;
+}
+.registracija .reg-forma{
+	width:350px;
+	height:600px;
+}
+.reg-slika{
+	float:right;
+	margin-top:50px;
+	margin-right:170px;
+}
+.reg-stil{
+	width:300px;
+	height:40px;
+}
+.taster{
+	width:100px;
+	height:40px;
+	background-color:#000;
+	font-size:18px;
+	border:1px solid #000;
+	color:#fff;
+	margin-top:15px;
+}
+
+
+/****proizvodi.hmtl***/
+
+
+.logo-naziv{
+	width:100%;
+	height:60px;
+	margin-top:40px;
+}
+.logo-naziv .blok-pretraga{
+	float:right;
+	border:1px solid #000;
+	height:56px;
+	border-radius:10px;
+	background-color:#b8bfc4;
+}
+#search-icon{
+	width:50px;
+	height:40px;
+	float:left;
+	font-size:38px;
+	margin-left:28px;
+	margin-top:10px;
+}
+#pretraga{
+	float:right;
+	margin-right:22px;
+	margin-top:10px;
+	height:60px
+}
+#pretraga-dugme{
+	padding:10px;
+}
+
+
+/** poseban artikal **/
+
+
+.artikal-str{
+	width:400px;
+	height:400px;
+	float:left;
+	margin:30px 0px;
+}
+.opis-artikla{
+	width:500px;
+	height:450px;
+	float:right;
+	margin:50px 0px;
+}
+#border-dole{
+	margin-top:12px;
+	background-color:rgba(194,194,194,0.3);
+}
+.razmak{
+	width:250px;
+	height:35px;
+	padding-left:5px;
+	font-size:18px;
+}
+.izg-tekst{
+	font-weight:bold;
+	padding-left:0px;
+	border-right:1px solid #000;
+}	
+.opis-artikla p{
+	padding-top:15px;
+	font-size:18px;
+	font-weight:bold;
+}
+.opis-artikla span{
+	font-weight:normal;
+	font-size:30px;
+}

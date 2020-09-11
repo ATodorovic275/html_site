@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Najprodavaniji proizvodi</title>
+		<link>http://sajtovistudenata.ict.edu.rs/173_17/index.html</link>
+		<description>Pogledajte nase najprodavanije satove</description>
+		<item>
+			<title>Fossil satovi</title>
+			<link>http://sajtovistudenata.ict.edu.rs/173_17/fossil-es4289.html</link>
+			<description>Fossil ES4289 - vise detalja</description>
+		</item>
+		<item>
+			<title>Casio satovi</title>
+			<link>http://sajtovistudenata.ict.edu.rs/173_17/casio-mtp7813.html</link>
+			<description>Casio MTP7813 - vise detalja</description>
+		</item>
+		<item>
+			<title>Casio satovi</title>
+			<link>http://sajtovistudenata.ict.edu.rs/173_17/casio-mtp1141.html</link>
+			<description>Casio MTP1141 - vise detalja</description>
+		</item>
+	</channel>
+</rss>
